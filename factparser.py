@@ -62,6 +62,8 @@ def parse(fact):
                       print(reb,str(c).strip())
                   elif next(iter(reversed_dict.get(next(iter(ber)))))!=str(c).strip():
                       print("i don't think there even is reference for this")
+                else:
+                    print("i don't think there even is reference for this")
             elif str(c).strip()==next(iter(ber)):
                 print(reb,str(c).strip())
             else:
